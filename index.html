@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Ubuntu:700&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <title>Sedona</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="links">
+        <li class="list"><a href="">Главная</a></li>
+        <li class="list"><a href="">Фото и видео</a></li>
+        <li class="list">
+          <img src="img/logotype-desktop.svg.png" alt="Logo" class="logoimg" />
+        </li>
+        <li class="list"><a href="">Форма отзыва</a></li>
+        <li class="list"><a href="">HTML Academy</a></li>
+      </ul>
+      <div class="sedona">SEDONA</div>
+      <img src="img/svg/intro-triangle.svg.svg" alt="" class="triangle" />
+    </header>
+    <h1 class="header-1">Оставьте свой отзыв</h1>
+    <p class="help-text">
+      Помогите нашим отелям стать лучше! оставьте отзыв о них,<br />
+      а также о посещенных вами достопримечательностях
+    </p>
+    <form action="" class="form" method="POST">
+      <fieldset>
+        <div class="feeling">
+          <ul class="radiobutton">
+            <li class="feeling-text">Ваше общее впечатление:</li>
+            <li class="radio-variant">
+              <input id="radio-1" name="radio" type="radio" checked />
+              <label for="radio-1">Скорее положительное</label>
+            </li>
+            <li class="radio-variant">
+              <input id="radio-2" name="radio" type="radio" />
+              <label for="radio-2">Скорее отрицательное</label>
+            </li>
+            <li class="radio-variant">
+              <input id="radio-3" name="radio" type="radio" />
+              <label for="radio-3">Затрудняюсь ответить</label>
+            </li>
+          </ul>
+        </div>
+        <div class="your-name">
+          <ul class="full-name">
+            <li class="feeling-text2">Представьтесь:</li>
+            <li class="first-name">
+              <label for="text-1" class="question2">ИМЯ*:</label>
+              <input
+                id="text-1"
+                type="text"
+                class="first-name-text"
+                required
+                placeholder="Пётр"
+              />
+            </li>
+            <li class="second-name">
+              <label for="text-2" class="question2">ФАМИЛИЯ*:</label>
+              <input
+                id="text-2"
+                type="text"
+                class="second-name-text"
+                required
+                placeholder="Иванов"
+              />
+            </li>
+            <li class="third-name">
+              <label for="text-3" class="question2">ОТЧЕСТВО:</label>
+              <input
+                id="text-3"
+                type="text"
+                class="third-name-text"
+                placeholder="Александрович"
+              />
+            </li>
+          </ul>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="contact-info">
+          <h2 class="heading-2">Контактная информация:</h2>
+        </div>
+        <div class="phone-email">
+          <label for="phone">ТЕЛЕФОН*:</label>
+          <input
+            id="phone"
+            type="tel"
+            class="first-name-text"
+            placeholder="Введите телефон"
+            required
+          />
+          <label for="email">ЭЛЕКТРОННАЯ ПОЧТА*:</label>
+          <input
+            id="email"
+            type="email"
+            class="first-name-text"
+            placeholder="Введите e-mail"
+            required
+          />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

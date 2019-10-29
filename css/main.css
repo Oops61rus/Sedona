@@ -1,0 +1,278 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.header {
+  margin: 0 auto;
+  position: relative;
+  height: 465px;
+  background: url(../img/back-desktop.jpg.png) no-repeat;
+  background-position-y: -161px;
+}
+
+.links {
+  background: white;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  width: 240px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.logoimg {
+  position: relative;
+  top: 20px;
+}
+
+.sedona {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: center;
+  color: white;
+  font-size: 140px;
+  margin: 0;
+  align-items: center;
+}
+
+.triangle {
+  position: absolute;
+  top: 300px;
+}
+
+.content {
+  position: relative;
+  width: 1200px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.help-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 69px;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+  height: 400px;
+}
+
+.feeling-text {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 67px;
+  margin-top: 0px;
+  list-style-type: none;
+  position: relative;
+  left: 70px;
+  width: 300px;
+}
+
+.radiobutton {
+  margin: 0;
+  padding: 0 auto;
+  position: relative;
+  left: 75px;
+  overflow: hidden;
+  width: 400px;
+}
+
+.feeling,
+.your-name {
+  display: inline-block;
+  width: 49.5%;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.feeling {
+  position: relative;
+  top: 5px;
+  height: 373px;
+}
+
+/*����� ��������� �� ������ ����� ������������ �����*/
+.your-name {
+  position: relative;
+  top: -287px;
+  border-left: 1px solid #dbdbdb;
+}
+
+label {
+  display: block;
+  margin: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+/*����� ����� �������� ���������� ����� �������������� � ��������� ���*/
+.radio-variant {
+  list-style-type: none;
+  margin-bottom: 30px;
+  position: relative;
+  left: -20px;
+}
+
+input[type="radio"] + label {
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  left: 45px;
+}
+
+/*�����������, �������� ������� � �������*/
+input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  border: 15px solid #dbdbdb;
+  border-radius: 50%;
+  background-color: #dbdbdb;
+  position: relative;
+  left: -20px;
+}
+
+/*���������� �����*/
+input[type="radio"]:checked + label::before {
+  background-color: #000;
+}
+
+/*��������� �����*/
+input[type="radio"]:checked + label {
+  color: black;
+}
+
+.feeling-text2 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+/*����� ����� �������� ������*/
+.full-name {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  left: 79px;
+  width: 430px;
+}
+
+.first-name,
+.second-name,
+.third-name {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  width: 95%;
+}
+
+/*��������� ������-������ � ������������ � �����*/
+.question2 {
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-top: 22px;
+}
+
+.first-name-text,
+.second-name-text,
+.third-name-text {
+  background-color: #f2f2f2;
+  border: none;
+  height: 58px;
+  position: relative;
+  left: 10px;
+}
+
+.first-name-text::placeholder,
+.second-name-text::placeholder,
+.third-name-text::placeholder {
+  padding: 22px;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.third-name-text {
+  margin-bottom: 80px;
+}
+
+/*��������� ������������ ��������*/
+.heading-2 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  left: 425px;
+  background: #fff;
+  padding: 67px 0 0;
+  margin: 0;
+  width: 350px;
+}
+
+.phone-email {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  position: relative;
+  left: 100px;
+}
+
+input[type="tel"],
+input[type="email"] {
+  width: 30%;
+}
