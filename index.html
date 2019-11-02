@@ -1,10 +1,11 @@
-п»ї<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/header.css" />
     <link
       href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Ubuntu:700&display=swap&subset=cyrillic-ext"
       rel="stylesheet"
@@ -13,100 +14,129 @@
   </head>
   <body>
     <header class="header">
-      <ul class="links">
-        <li class="list"><a href="">Р“Р»Р°РІРЅР°СЏ</a></li>
-        <li class="list"><a href="">Р¤РѕС‚Рѕ Рё РІРёРґРµРѕ</a></li>
-        <li class="list">
-          <img src="img/logotype-desktop.svg.png" alt="Logo" class="logoimg" />
-        </li>
-        <li class="list"><a href="">Р¤РѕСЂРјР° РѕС‚Р·С‹РІР°</a></li>
-        <li class="list"><a href="">HTML Academy</a></li>
-      </ul>
-      <div class="sedona">SEDONA</div>
-      <img src="img/svg/intro-triangle.svg.svg" alt="" class="triangle" />
+      <nav class="header__menu">
+	  	<ul class="header__menu__list">
+        	<li class="header__menu__list__item"><a href="" class="header__menu__list__item__link">Главная</a></li>
+        	<li class="header__menu__list__item"><a href="" class="header__menu__list__item__link">Фото и видео</a></li>
+        	<li class="header__menu__list__item">
+          		<img src="img/logotype-desktop.png" alt="Logo" class="header__menu__list__item__logo" />
+        	</li>
+        	<li class="header__menu__list__item"><a href="" class="header__menu__list__item__link">Форма отзыва</a></li>
+        	<li class="header__menu__list__item"><a href="https://htmlacademy.ru/" class="header__menu__list__item__link">HTML Academy</a></li>
+      	</ul>
+      </nav>
+      <div class="header__sedona">SEDONA</div>
+      <img src="img/svg/intro-triangle.svg" alt="" class="header__triangle" />
     </header>
-    <h1 class="header-1">РћСЃС‚Р°РІСЊС‚Рµ СЃРІРѕР№ РѕС‚Р·С‹РІ</h1>
-    <p class="help-text">
-      РџРѕРјРѕРіРёС‚Рµ РЅР°С€РёРј РѕС‚РµР»СЏРј СЃС‚Р°С‚СЊ Р»СѓС‡С€Рµ! РѕСЃС‚Р°РІСЊС‚Рµ РѕС‚Р·С‹РІ Рѕ РЅРёС…,<br />
-      Р° С‚Р°РєР¶Рµ Рѕ РїРѕСЃРµС‰РµРЅРЅС‹С… РІР°РјРё РґРѕСЃС‚РѕРїСЂРёРјРµС‡Р°С‚РµР»СЊРЅРѕСЃС‚СЏС…
-    </p>
-    <form action="" class="form" method="POST">
-      <fieldset>
-        <div class="feeling">
-          <ul class="radiobutton">
-            <li class="feeling-text">Р’Р°С€Рµ РѕР±С‰РµРµ РІРїРµС‡Р°С‚Р»РµРЅРёРµ:</li>
-            <li class="radio-variant">
-              <input id="radio-1" name="radio" type="radio" checked />
-              <label for="radio-1">РЎРєРѕСЂРµРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ</label>
-            </li>
-            <li class="radio-variant">
-              <input id="radio-2" name="radio" type="radio" />
-              <label for="radio-2">РЎРєРѕСЂРµРµ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ</label>
-            </li>
-            <li class="radio-variant">
-              <input id="radio-3" name="radio" type="radio" />
-              <label for="radio-3">Р—Р°С‚СЂСѓРґРЅСЏСЋСЃСЊ РѕС‚РІРµС‚РёС‚СЊ</label>
-            </li>
-          </ul>
-        </div>
-        <div class="your-name">
-          <ul class="full-name">
-            <li class="feeling-text2">РџСЂРµРґСЃС‚Р°РІСЊС‚РµСЃСЊ:</li>
-            <li class="first-name">
-              <label for="text-1" class="question2">РРњРЇ*:</label>
-              <input
-                id="text-1"
-                type="text"
-                class="first-name-text"
-                required
-                placeholder="РџС‘С‚СЂ"
-              />
-            </li>
-            <li class="second-name">
-              <label for="text-2" class="question2">Р¤РђРњРР›РРЇ*:</label>
-              <input
-                id="text-2"
-                type="text"
-                class="second-name-text"
-                required
-                placeholder="РРІР°РЅРѕРІ"
-              />
-            </li>
-            <li class="third-name">
-              <label for="text-3" class="question2">РћРўР§Р•РЎРўР’Рћ:</label>
-              <input
-                id="text-3"
-                type="text"
-                class="third-name-text"
-                placeholder="РђР»РµРєСЃР°РЅРґСЂРѕРІРёС‡"
-              />
-            </li>
-          </ul>
-        </div>
-      </fieldset>
-      <fieldset>
-        <div class="contact-info">
-          <h2 class="heading-2">РљРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ:</h2>
-        </div>
-        <div class="phone-email">
-          <label for="phone">РўР•Р›Р•Р¤РћРќ*:</label>
-          <input
-            id="phone"
-            type="tel"
-            class="first-name-text"
-            placeholder="Р’РІРµРґРёС‚Рµ С‚РµР»РµС„РѕРЅ"
-            required
-          />
-          <label for="email">Р­Р›Р•РљРўР РћРќРќРђРЇ РџРћР§РўРђ*:</label>
-          <input
-            id="email"
-            type="email"
-            class="first-name-text"
-            placeholder="Р’РІРµРґРёС‚Рµ e-mail"
-            required
-          />
-        </div>
-      </fieldset>
-    </form>
-  </body>
+	<main>
+    	<h1 class="main__header-1">Оставьте свой отзыв</h1>
+    	<p class="main__text">
+      	Помогите нашим отелям стать лучше! оставьте отзыв о них,<br/>
+      	а также о посещенных вами достопримечательностях
+    	</p>
+    	<form action="" class="main__form" method="POST">
+      		<fieldset class="main__form__fieldset1">
+        		<div class="main__form__fieldset1__feeling">
+          			<ul class="main__form__fieldset1__feeling__list">
+            			<li class="main__form__fieldset1__feeling__list__text">Ваше общее впечатление:</li>
+            			<li class="main__form__fieldset1__feeling__list__item">
+              				<input id="radio-1" name="radio" type="radio" class="main__form__fieldset1__feeling__list__item__radio"checked />
+              				<label for="radio-1" class="main__form__fieldset1__feeling__list__item__text">Скорее положительное</label>
+            			</li>
+            			<li class="main__form__fieldset1__feeling__list__item">
+              				<input id="radio-2" name="radio" type="radio" class="main__form__fieldset1__feeling__list__item__radio"/>
+              				<label for="radio-2" class="main__form__fieldset1__feeling__list__item__text">Скорее отрицательное</label>
+            			</li>
+            			<li class="main__form__fieldset1__feeling__list__item">
+              				<input id="radio-3" name="radio" type="radio" class="main__form__fieldset1__feeling__list__item__radio"/>
+              				<label for="radio-3" class="main__form__fieldset1__feeling__list__item__text">Затрудняюсь ответить</label>
+            			</li>
+          			</ul>
+        		</div>
+        		<div class="main__form__fieldset1__name">
+          			<ul class="main__form__fieldset1__name__list">
+            			<li class="main__form__fieldset1__name__list__text">Представьтесь:</li>
+            			<li class="main__form__fieldset1__name__list__item">
+              				<label for="text-1" class="main__form__fieldset1__name__list__item__text">ИМЯ*:</label>
+              				<input id="text-1" type="text" class="main__form__fieldset1__name__list__item__text__in" required placeholder="Пётр" />
+            			</li>
+            			<li class="main__form__fieldset1__name__list__item">
+              				<label for="text-2" class="main__form__fieldset1__name__list__item__text">ФАМИЛИЯ*:</label>
+              				<input id="text-2" type="text" class="main__form__fieldset1__name__list__item__text__in" required placeholder="Иванов" />
+            			</li>
+            			<li class="main__form__fieldset1__name__list__item">
+              				<label for="text-3" class="main__form__fieldset1__name__list__item__text">ОТЧЕСТВО:</label>
+              				<input id="text-3" type="text" class="main__form__fieldset1__name__list__item__text__in" placeholder="Александрович" />
+            			</li>
+          			</ul>
+        		</div>
+      		</fieldset>
+			<fieldset class="main__form__fieldset2">
+			<div class="heading-2">Контактная информация:</div>
+          		<ul class="main__form__fieldset2__phone-email">
+					<li class="main__form__fieldset2__phone-email__item">
+					    <label for="phone" class="main__form__fieldset2__item__text">ТЕЛЕФОН*:</label>
+          				<input id="phone" type="tel" class="main__form__fieldset2__item__input" placeholder="Введите телефон" pattern="d{11}" minlength="11" maxlength="11" required/>
+						<img src="img/icon/phone.png" alt="phone" class="main__form__fieldset2__phone-email__item__icon-phone">
+					</li>
+					<li class="main__form__fieldset2__phone-email__item">
+						<label for="email" class="main__form__fieldset2__item__text">ЭЛЕКТРОННАЯ ПОЧТА*:</label>
+						<input id="email" type="email" class="main__form__fieldset2__item__input" placeholder="Введите e-mail" required/>
+						<img src="img/icon/mail.png" alt="email" class="main__form__fieldset2__phone-email__item__icon-mail">
+					</li>
+				</ul>
+      		</fieldset>
+			<fieldset class="main__form__fieldset3">
+				<div class="heading-2">Посещенные достопримечательности:</div>
+          		<ul class="main__form__fieldset3__list">
+					<li class="main__form__fieldset3__list__item">
+          				<input id="check1" type="checkbox" class="main__form__fieldset3__item__check" checked/>
+						<label for="check1" class="main__form__fieldset3__item__text">Мост Дьявола</label>
+					</li>
+					<li class="main__form__fieldset3__list__item">
+          				<input id="check2" type="checkbox" class="main__form__fieldset3__item__check" checked/>
+						<label for="check2" class="main__form__fieldset3__item__text">Гора-Колокол</label>
+					</li>
+					<li class="main__form__fieldset3__list__item">
+						<input id="check3" type="checkbox" class="main__form__fieldset3__item__check" checked/>
+						<label for="check3" class="main__form__fieldset3__item__text">Слайд-парк</label>
+					</li>
+					<li class="main__form__fieldset3__list__item">
+						<input id="check4" type="checkbox" class="main__form__fieldset3__item__check"/>
+						<label for="check4" class="main__form__fieldset3__item__text">Красные скалы</label>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<div class="heading-2">Опишите свои эмоции:</div>
+				<textarea placeholder="Опишите подробно все свои эмоции"></textarea>
+			</fieldset>
+				
+				
+				
+<!--			<ul class="main__form__fieldset2__phone-email">
+					<li class="main__form__fieldset2__phone-email__item">
+						<span class="main__form__fieldset2__phone-email__item__error">Ошибка, перепроверьте номер</span>
+					</li>
+					<li class="main__form__fieldset2__phone-email__item">
+						<span class="main__form__fieldset2__phone-email__item__error">Ошибка, перепроверьте e-mail</span>
+					</li>
+				</ul>
+				    <div class="main__form__fieldset2__phone-email">
+						<label for="phone" class="main__form__fieldset2__item__text">ТЕЛЕФОН*:</label>
+        				<input type="tel" name="name" class="main__form__fieldset2__item__input" placeholder="Телефон" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" required/>
+						<img src="img/icon/phone.png" alt="phone" class="main__form__fieldset2__phone-email__item__icon-phone">
+        			<span class="main__form__fieldset2__phone-email__error">Это поле должно содержать телефон в формате +7 (123) 456-78-90</span>
+    				</div>
+				    <div class="main__form__fieldset2__phone-email">
+						<label for="email" class="main__form__fieldset2__item__text">ЭЛЕКТРОННАЯ ПОЧТА*:</label>
+        				<input type="email" name="name" class="main__form__fieldset2__item__input" placeholder="E-Mail" required/>
+						<img src="img/icon/mail.png" alt="email" class="main__form__fieldset2__phone-email__item__icon-mail">
+        			<span class="main__form__fieldset2__phone-email__error">Это поле должно содержать E-Mail в формате example@site.com</span>  
+    				</div>
+-->
+				
+
+    	</form>
+  	</body>
 </html>

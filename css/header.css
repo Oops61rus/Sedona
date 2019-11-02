@@ -1,0 +1,72 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+/*HEADER*/
+
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  height: 357px;
+  background: url(../img/back-desktop.png) no-repeat;
+  background-position-y: -161px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.header__menu {
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu__list {
+  display: flex;
+  background: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu__list__item {
+  display: flex;
+  width: 240px;
+  height: 56px;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu__list__item__link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.header__menu__list__item__logo {
+  position: relative;
+  top: 20px;
+}
+
+.header__sedona {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 140px;
+  margin: 62px;
+}
+
+.header__triangle {
+  position: absolute;
+  top: 301px;
+}
