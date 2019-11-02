@@ -292,14 +292,12 @@ input[type="email"] {
   background-color: #dbdbdb;
   margin: 0 24px 0 0;
 }
-*/
 
 /*---------input[type="checkbox"]:checked+label::before-----------*/
 
 .main__form__fieldset3__item__check:checked + .main__form__fieldset3__item__text::before {
   background: url(../img/icon/ticktick.svg) no-repeat;
 }
-*/
 
 /*---------input[type="checkbox"]:checked+label-----------*/
  
