@@ -23,17 +23,18 @@
 }
 
 .main__form__fieldset1 {
-  display: flex;
   padding: 0;
   margin: 0;
   border: none;
   height: 372px;
+}
+
+.feeling {
+  display: flex;
   justify-content: center;
 }
 
-
 /*---------form feeling---------*/
-
 
 .main__form__fieldset1__feeling,
 .main__form__fieldset1__name {
@@ -41,13 +42,13 @@
 }
 
 .main__form__fieldset1__feeling {
-  padding: 0 127px 0 129px;
+  padding: 0 127px 80px 129px;
   width: 344px;
 }
 
 .main__form__fieldset1__feeling__list {
   margin: 0;
-  padding 0;
+  padding: 0;
 }
 
 .main__form__fieldset1__feeling__list__text {
@@ -67,17 +68,15 @@
   display: none;
 }
 
-.main__form__fieldset1__feeling__list__item__text
- {
+.main__form__fieldset1__feeling__list__item__text {
   display: block;
   margin: 0;
 }
 
-
 /*---------input[type="radio"]+label-----------*/
 
-.main__form__fieldset1__feeling__list__item__radio + .main__form__fieldset1__feeling__list__item__text
-{
+.main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text {
   vertical-align: middle;
   font-size: 18px;
   font-weight: 700;
@@ -85,7 +84,8 @@
 
 /*---------input[type="radio"]+label::before-----------*/
 
-.main__form__fieldset1__feeling__list__item__radio + .main__form__fieldset1__feeling__list__item__text::before {
+.main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text::before {
   content: "";
   display: inline-block;
   width: 14px;
@@ -99,29 +99,29 @@
 
 /*---------input[type="radio"]:checked+label::before-----------*/
 
-.main__form__fieldset1__feeling__list__item__radio:checked + .main__form__fieldset1__feeling__list__item__text::before {
+.main__form__fieldset1__feeling__list__item__radio:checked
+  + .main__form__fieldset1__feeling__list__item__text::before {
   background-color: #000;
 }
 
 /*---------input[type="radio"]:checked+label-----------*/
 
-.main__form__fieldset1__feeling__list__item__radio:checked + .main__form__fieldset1__feeling__list__item__text {
+.main__form__fieldset1__feeling__list__item__radio:checked
+  + .main__form__fieldset1__feeling__list__item__text {
   color: black;
 }
 
-
 /*----------form-name---------*/
-
 
 .main__form__fieldset1__name {
   border-left: 1px solid #dbdbdb;
-  padding: 0 120px 0 79px;
+  padding: 0 120px 80px 79px;
   width: 400px;
 }
 
 .main__form__fieldset1__name__list {
   margin: 0;
-  padding 0;
+  padding: 0;
   display: flex;
   flex-flow: column;
 }
@@ -166,13 +166,11 @@ input[type="text"] {
   font-size: 18px;
 }
 
-
 /*----------------fieldset 2--------------*/
-
 
 .main__form__fieldset2 {
   margin: 0;
-  padding: 0 0 78px 0;
+  padding: 0;
   border: none;
   border-bottom: 1px solid #dbdbdb;
 }
@@ -204,12 +202,13 @@ input[type="text"] {
   padding: 0;
   color: #333333;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 input[type="tel"],
 input[type="email"] {
   width: 257px;
-} 
+}
 
 .main__form__fieldset2__phone-email__item__icon-phone {
   width: 18px;
@@ -239,9 +238,7 @@ input[type="email"] {
   padding: 22px;
 }
 
-
 /*----------------fieldset 3--------------*/
-
 
 .main__form__fieldset3 {
   margin: 0;
@@ -266,16 +263,14 @@ input[type="email"] {
   display: none;
 }
 
-.main__form__fieldset3__item__text
- {
+.main__form__fieldset3__item__text {
   display: block;
   margin: 0;
 }
 
 /*---------input[type="checkbox"]+label-----------*/
 
-.main__form__fieldset3__item__check + .main__form__fieldset3__item__text
-{
+.main__form__fieldset3__item__check + .main__form__fieldset3__item__text {
   vertical-align: middle;
   font-size: 18px;
   font-weight: 700;
@@ -283,7 +278,8 @@ input[type="email"] {
 
 /*---------input[type="checkbox"]+label::before-----------*/
 
-.main__form__fieldset3__item__check + .main__form__fieldset3__item__text::before {
+.main__form__fieldset3__item__check
+  + .main__form__fieldset3__item__text::before {
   content: "";
   display: inline-block;
   width: 24px;
@@ -296,17 +292,17 @@ input[type="email"] {
   background-color: #dbdbdb;
   margin: 0 24px 0 0;
 }
+*/
 
 /*---------input[type="checkbox"]:checked+label::before-----------*/
 
 .main__form__fieldset3__item__check:checked + .main__form__fieldset3__item__text::before {
   background: url(../img/icon/ticktick.svg) no-repeat;
 }
+*/
 
 /*---------input[type="checkbox"]:checked+label-----------*/
-
+ 
 .main__form__fieldset3__item__check:checked + .main__form__fieldset3__item__text {
   color: black;
 }
-
-

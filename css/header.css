@@ -4,16 +4,13 @@ body {
   width: 1200px;
 }
 
-
 /*HEADER*/
-
 
 .header {
   display: flex;
   margin: 0 auto;
   height: 357px;
-  background: url(../img/back-desktop.png) no-repeat;
-  background-position-y: -161px;
+  background: url(../img/back-desktop.png) no-repeat 0 -161px;
   flex-flow: row wrap;
   justify-content: center;
   align-content: flex-start;
