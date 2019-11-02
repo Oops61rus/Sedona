@@ -157,6 +157,10 @@ input[type="text"] {
   background-color: #f2f2f2;
   border: none;
   height: 58px;
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .main__form__fieldset1__name__list__item__text__in::placeholder {
@@ -229,6 +233,10 @@ input[type="email"] {
   border: none;
   height: 58px;
   padding: 0;
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .main__form__fieldset2__item__input::placeholder {
@@ -295,12 +303,41 @@ input[type="email"] {
 
 /*---------input[type="checkbox"]:checked+label::before-----------*/
 
-.main__form__fieldset3__item__check:checked + .main__form__fieldset3__item__text::before {
-  background: url(../img/icon/ticktick.svg) no-repeat;
+.main__form__fieldset3__item__check:checked
+  + .main__form__fieldset3__item__text::before {
+  background: url(../img/icon/tick.svg) no-repeat;
 }
 
 /*---------input[type="checkbox"]:checked+label-----------*/
- 
-.main__form__fieldset3__item__check:checked + .main__form__fieldset3__item__text {
+
+.main__form__fieldset3__item__check:checked
+  + .main__form__fieldset3__item__text {
   color: black;
+}
+
+/*------------fieldset 4-------------*/
+.main__form__fieldset4 {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.main__form__fieldset4__text {
+  background-color: #f2f2f2;
+  height: 160px;
+  margin: 60px 120px;
+  border: none;
+  font-size: 18px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  font-weight: 700;
+  resize: none;
+}
+
+.main__form__fieldset4__text::placeholder {
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 700;
+  padding: 22px 21px;
 }
