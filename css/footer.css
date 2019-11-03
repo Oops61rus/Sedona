@@ -1,0 +1,116 @@
+.main__form__submit {
+    margin: 58px 120px;
+    padding: 21px 148px;
+    background-color: #81b3d2;
+    color: white;
+    border: none;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    width: 480px;
+}
+  
+.addition {
+    color: #333333;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 84px 120px 0 0;
+}
+  
+.page__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px 36px 132px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__visit {
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.twitter {
+    display: block;
+    background-color: #81b3d2;
+    width: 46px;
+    height: 48px;
+    margin: 3px;
+}
+
+.twitter::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 14px;
+    background: url(../img/icon/icon-twitter.svg) no-repeat;
+    margin: 17px 14px;
+}
+
+.facebook {
+    display: block;
+    background-color: #81b3d2;
+    width: 46px;
+    height: 48px;
+    margin: 3px;
+}
+
+.facebook::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 18px;
+    background: url(../img/icon/icon-facebook.svg) no-repeat;
+    margin: 14px 19px;
+}
+
+.youtube {
+    display: block;
+    background-color: #81b3d2;
+    width: 46px;
+    height: 48px;
+    margin: 3px;
+}
+
+.youtube::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    background: url(../img/icon/icon-youtube.svg) no-repeat;
+    margin: 17px 13px;
+}
+
+.made {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.made__by {
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.made__by::after {
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 34px;
+    background: url(../img/icon/htmlacademy.png) no-repeat;
+    margin: 0 0 0 11px;
+    vertical-align: middle;
+}

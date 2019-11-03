@@ -395,30 +395,3 @@ input[type="email"]::after {
   flex-direction: row;
   justify-content: space-between;
 }
-
-.main__form__submit {
-  margin: 58px 120px;
-  padding: 21px 148px;
-  background-color: #81b3d2;
-  color: white;
-  border: none;
-  font-size: 21px;
-  font-weight: 700;
-  font-family: "PT Sans", sans-serif;
-  width: 480px;
-}
-
-.addition {
-  color: #333333;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin: 84px 120px 0 0;
-}
-
-.page__footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 100px 120px 36px 132px;
-  flex-direction: row;
-}
