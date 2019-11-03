@@ -176,8 +176,7 @@ input[type="text"] {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
-  height: 40px;
+  margin: 0 auto;
 }
 
 .heading-2::after {
@@ -352,9 +351,15 @@ input[type="email"]::after {
   width: 100%;
 }
 
+.fieldset4__width {
+  width: 960px;
+  height: 160px;
+}
+
 .main__form__fieldset4__text {
   background-color: #f2f2f2;
-  height: 160px;
+  width: 100%;
+  height: 100%;
   margin: 60px 0 0 120px;
   border: none;
   font-size: 18px;
