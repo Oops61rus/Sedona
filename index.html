@@ -27,7 +27,7 @@
       </nav>
       <div class="header__sedona">SEDONA</div>
     </header>
-	<main>
+	<div>
     	<h1 class="main__header-1">Оставьте свой отзыв</h1>
     	<p class="main__text">
 		Помогите нашим отелям стать лучше! оставьте отзыв о них,<br/>
@@ -73,11 +73,11 @@
 				</div>
       		</fieldset>
 			<fieldset class="main__form__fieldset2">
-			<h2 class="heading-2">Контактная информация:</h2>
+			<h2 class="heading-2"><span class="head-2__center">Контактная информация:</span></h2>
           		<ul class="main__form__fieldset2__phone-email">
 					<li class="main__form__fieldset2__phone-email__item">
 					    <label for="phone" class="main__form__fieldset2__item__text">Телефон*:</label>
-          				<input id="phone" type="tel" class="main__form__fieldset2__item__input" placeholder="Введите телефон" pattern="d{11}" minlength="11" maxlength="11" required/>
+          				<input id="phone" type="tel" class="main__form__fieldset2__item__input" placeholder="Введите телефон" required/>
 						<!-- <img src="img/icon/phone.png" alt="phone" class="main__form__fieldset2__phone-email__item__icon-phone"> -->
 					</li>
 					<li class="main__form__fieldset2__phone-email__item">
@@ -88,7 +88,7 @@
 				</ul>
       		</fieldset>
 			<fieldset class="main__form__fieldset3">
-				<h2 class="heading-2">Посещенные достопримечательности:</h2>
+				<h2 class="heading-2"><span class="head-2__center">Посещенные достопримечательности:</span></h2>
           		<ul class="main__form__fieldset3__list">
 					<li class="main__form__fieldset3__list__item">
           				<input id="check1" type="checkbox" class="main__form__fieldset3__item__check" checked/>
@@ -109,11 +109,21 @@
 				</ul>
 			</fieldset>
 			<fieldset class="main__form__fieldset4">
-				<h2 class="heading-2">Опишите свои эмоции:</h2>
+				<h2 class="heading-2"><span class="head-2__center">Опишите свои эмоции:</span></h2>
 				<div class="fieldset4__width">
 					<textarea class="main__form__fieldset4__text" placeholder="Опишите подробно все свои восторги"></textarea>
 				</div>
 			</fieldset>
-    	</form>
-  	</body>
+			<div class="main__bottom">
+				<input type="submit" value="ОТПРАВИТЬ ОТЗЫВ" class="main__form__submit">
+				<p class="addition">* — обязательные поля</p>
+			</div>
+		</form>
+		<footer class="page-footer">
+			<p class="footer__visit">#visitSEDONA</p>
+			<div class="social"></div>
+			<div class="madeby"></div>
+		</footer>
+	</div>
+  </body>
 </html>
