@@ -234,7 +234,7 @@ input[type="email"] {
   width: 257px;
 }
 
-input[type="tel"]::after {
+.list__tel::after {
   content: "";
   display: inline-block;
   width: 58px;
@@ -244,7 +244,7 @@ input[type="tel"]::after {
   vertical-align: middle;
 }
 
-input[type="email"]::after {
+.list__email::after {
   content: "";
   display: inline-block;
   width: 58px;
@@ -253,20 +253,6 @@ input[type="email"]::after {
   background-color: #dbdbdb;
   vertical-align: middle;
 }
-
-/* .main__form__fieldset2__phone-email__item__icon-phone {
-  width: 18px;
-  height: 18px;
-  padding: 20px 19px 20px 21px;
-  background-color: #dbdbdb;
-}
-
-.main__form__fieldset2__phone-email__item__icon-mail {
-  width: 16px;
-  height: 12px;
-  padding: 23px 21px;
-  background-color: #dbdbdb;
-} */
 
 .main__form__fieldset2__item__input {
   background-color: #f2f2f2;

@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   position: relative;
+  box-shadow: 0 0 40px 0 #dcdcdc;
 }
 
 /*HEADER*/
