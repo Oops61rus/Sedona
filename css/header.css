@@ -21,9 +21,9 @@ body {
 .header::after {
   display: block;
   content: "";
-  background: url(img/svg/intro-triangle.svg) no-repeat;
+  background: url(../img/svg/intro-triangle.svg) no-repeat;
   position: absolute;
-  top: 120px;
+  top: 302px;
   width: 1200px;
   height: 57px;
 }
@@ -71,6 +71,6 @@ body {
   align-items: center;
   font-family: "Ubuntu", sans-serif;
   color: white;
-  font-size: 140px;
-  margin: 62px;
+  font-size: 108px;
+  margin: 76px auto;
 }
