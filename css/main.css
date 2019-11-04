@@ -185,6 +185,7 @@ input[type="text"] {
   margin: 40px 0 0 0;
   padding: 0;
   border: none;
+  position: relative;
 }
 
 .heading-2 {
@@ -221,6 +222,22 @@ input[type="text"] {
   width: 320px;
   vertical-align: middle;
   margin-right: 30px;
+}
+
+.fieldset2__validation__tel {
+  display: block;
+  color: #ff5c5c;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 75px;
+  left: 224px;
+  display: none;
+}
+
+.main__form__fieldset2__item__input:invalid + .fieldset2__validation__tel {
+  display: block;
 }
 
 .main__form__fieldset2__phone-email {

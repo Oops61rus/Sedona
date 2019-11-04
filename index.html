@@ -164,7 +164,7 @@
                 type="number"
                 class="main__form__fieldset2__item__input"
                 placeholder="Введите телефон"
-                required
+                required maxlength="11" minlength="11"
               />
             </li>
             <li class="main__form__fieldset2__phone-email__item list__email">
@@ -180,6 +180,7 @@
               />
             </li>
           </ul>
+          <div class="fieldset2__validation__tel">Ошибка, перепроверьте номер</div>
         </fieldset>
         <fieldset class="main__form__fieldset3">
           <h2 class="heading-2">
