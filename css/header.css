@@ -3,7 +3,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   position: relative;
-  box-shadow: 0 0 40px 0 #dcdcdc;
+  box-shadow: 0 0 40px 40px #dbdbdb;
 }
 
 /*HEADER*/
@@ -59,6 +59,22 @@ body {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.header__menu__list__item__link:hover {
+  text-decoration: none;
+  color: #81b3d2;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__menu__list__item__link:active {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #766357;
 }
 
 .header__menu__list__item__logo {

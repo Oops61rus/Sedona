@@ -1,23 +1,3 @@
-.main__form__submit {
-    margin: 58px 120px;
-    padding: 21px 148px;
-    background-color: #81b3d2;
-    color: white;
-    border: none;
-    font-size: 21px;
-    font-weight: 700;
-    font-family: "PT Sans", sans-serif;
-    width: 480px;
-}
-  
-.addition {
-    color: #333333;
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 84px 120px 0 0;
-}
-  
 .page__footer {
     display: flex;
     justify-content: space-between;
@@ -48,12 +28,20 @@
     margin: 3px;
 }
 
+.twitter:hover {
+    background-color: #669ec0;
+}
+
+.twitter:visited {
+    background-color: #5496bd;
+}
+
 .twitter::before {
     content: "";
     display: inline-block;
     width: 18px;
     height: 14px;
-    background: url(../img/icon/icon-twitter.svg) no-repeat;
+    background: url(../img/icon/icon-twitter.png) no-repeat;
     margin: 17px 14px;
 }
 
@@ -65,12 +53,20 @@
     margin: 3px;
 }
 
+.facebook:hover {
+    background-color: #669ec0;
+}
+
+.facebook:visited {
+    background-color: #5496bd;
+}
+
 .facebook::before {
     content: "";
     display: inline-block;
     width: 9px;
     height: 18px;
-    background: url(../img/icon/icon-facebook.svg) no-repeat;
+    background: url(../img/icon/icon-facebook.png) no-repeat;
     margin: 14px 19px;
 }
 
@@ -82,12 +78,20 @@
     margin: 3px;
 }
 
+.youtube:hover {
+    background-color: #669ec0;
+}
+
+.youtube:visited {
+    background-color: #5496bd;
+}
+
 .youtube::before {
     content: "";
     display: inline-block;
     width: 20px;
     height: 14px;
-    background: url(../img/icon/icon-youtube.svg) no-repeat;
+    background: url(../img/icon/icon-youtube.png) no-repeat;
     margin: 17px 13px;
 }
 
@@ -105,6 +109,10 @@
     text-transform: uppercase;
 }
 
+.academy {
+    text-decoration: none;
+}
+
 .made__by::after {
     content: "";
     display: inline-block;
@@ -114,3 +122,24 @@
     margin: 0 0 0 11px;
     vertical-align: middle;
 }
+
+.made__by:hover::after {
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 34px;
+    background: url(../img/icon/htmlacademy_hover.png) no-repeat;
+    margin: 0 0 0 11px;
+    vertical-align: middle;
+}
+
+.made__by:visited::after {
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 34px;
+    background: url(../img/icon/htmlacademy_down.png) no-repeat;
+    margin: 0 0 0 11px;
+    vertical-align: middle;
+}
+
