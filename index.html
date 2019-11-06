@@ -161,11 +161,16 @@
               >
               <input
                 id="phone"
-                type="number"
+                type="tel"
                 class="main__form__fieldset2__item__input"
                 placeholder="Введите телефон"
-                required maxlength="11" minlength="11"
+                required
+                maxlength="11"
+                minlength="11"
               />
+              <div class="fieldset2__validation__tel">
+                Ошибка, перепроверьте номер
+              </div>
             </li>
             <li class="main__form__fieldset2__phone-email__item list__email">
               <label for="email" class="main__form__fieldset2__item__text"
@@ -180,7 +185,6 @@
               />
             </li>
           </ul>
-          <div class="fieldset2__validation__tel">Ошибка, перепроверьте номер</div>
         </fieldset>
         <fieldset class="main__form__fieldset3">
           <h2 class="heading-2">
@@ -258,12 +262,20 @@
     <footer class="page__footer">
       <p class="footer__visit">#visitSEDONA</p>
       <div class="social">
-        <a href="http://twitter.com" class="twitter__link"><div class="twitter"></div></a>
-        <a href="http://facebook.com" class="facebook__link"><div class="facebook"></div></a>
-        <a href="http://youtube.com" class="youtube__link"><div class="youtube"></div></a>
+        <a href="http://twitter.com" class="twitter__link"
+          ><div class="twitter"></div
+        ></a>
+        <a href="http://facebook.com" class="facebook__link"
+          ><div class="facebook"></div
+        ></a>
+        <a href="http://youtube.com" class="youtube__link"
+          ><div class="youtube"></div
+        ></a>
       </div>
       <div class="made">
-        <a href="http://htmlacademy.ru" class="academy"><p class="made__by">Разработано</p></a>
+        <a href="http://htmlacademy.ru" class="academy"
+          ><p class="made__by">Разработано</p></a
+        >
       </div>
     </footer>
   </body>

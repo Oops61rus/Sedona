@@ -139,7 +139,7 @@
 }
 
 input[type="text"] {
-  width: 95%;
+  width: 100%;
 }
 
 .main__form__fieldset1__name__list__item__text {
@@ -167,10 +167,12 @@ input[type="text"] {
 }
 
 .main__form__fieldset1__name__list__item__text__in:active {
-  border: 4px solid #e5e5e5;
+  box-shadow: inset 0px 0px 0px 4px #e5e5e5;
   background-color: #ffffff;
-  height: 50px;
-  padding-left: 18px;
+}
+
+.main__form__fieldset1__name__list__item__text__in:focus {
+  outline: none;
 }
 
 .main__form__fieldset1__name__list__item__text__in::placeholder {
@@ -233,11 +235,6 @@ input[type="text"] {
   position: absolute;
   top: 75px;
   left: 224px;
-  display: none;
-}
-
-.main__form__fieldset2__item__input:invalid + .fieldset2__validation__tel {
-  display: block;
 }
 
 .main__form__fieldset2__phone-email {
@@ -262,19 +259,24 @@ input[type="text"] {
   text-transform: uppercase;
 }
 
-input[type="number"],
+input[type="tel"],
 input[type="email"] {
   width: 257px;
 }
 
-input[type="number"]:hover,
+input[type="tel"]:hover,
 input[type="email"]:hover {
   background-color: #e5e5e5;
 }
 
-input[type="number"]:active,
+input[type="tel"]:active,
 input[type="email"]:active {
   background-color: #ffffff;
+  box-shadow: inset 0px 0px 0px 4px #e5e5e5;
+}
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  outline: none;
 }
 
 .list__tel::after {
@@ -429,7 +431,11 @@ input[type="email"]:active {
 
 .main__form__fieldset4__text:active {
   background-color: #ffffff;
-  padding: 15px 21px;
+  box-shadow: inset 0px 0px 0px 4px #e5e5e5;
+}
+
+.main__form__fieldset4__text:focus {
+  outline: none;
 }
 
 .main__form__fieldset4__text::placeholder {
