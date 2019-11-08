@@ -268,7 +268,7 @@ input[type="email"]:hover {
 }
 
 input[type="tel"]:focus,
-input[type="email"]:focus 
+input[type="email"]:focus {
   background-color: #ffffff;
   box-shadow: inset 0px 0px 0px 4px #e5e5e5;
 }
@@ -296,7 +296,7 @@ input[type="email"]:focus
 .main__form__fieldset2__item__input {
   background-color: #f2f2f2;
   border: none;
-  height: 58px;
+  height: 56px;
   width: 258px;
   padding-left: 22px;
   color: #000000;

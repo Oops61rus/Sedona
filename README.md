@@ -3,8 +3,8 @@
 My First project showing what I leatned
 
 ## Getting Started
-
-In order to download this file to your computer, you need to enter a command ".git clone https://github.com/Oops61rus/Sedona.git" in the Git Bash and clone the repository
+You can see this project here https://oops61rus.github.io/Sedona/
+Also in order to download this file to your computer, you need to enter a command ".git clone https://github.com/Oops61rus/Sedona.git" in the Git Bash and clone the repository
 
 ### Prerequisites
 
