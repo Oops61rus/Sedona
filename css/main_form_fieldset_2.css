@@ -1,0 +1,177 @@
+/*----------------fieldset 2--------------*/
+
+.main__form__fieldset2 {
+  margin: 40px 0 0 0;
+  padding: 0;
+  border: none;
+  position: relative;
+}
+
+.heading-2 {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-line {
+  position: relative;
+}
+.head-line::after {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  width: 1px;
+  height: 316px;
+  position: absolute;
+  left: 140px;
+  bottom: 75px;
+  animation-name: border-anim;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes border-anim {
+  0% {
+    width: 1px;
+    height: 0;
+  }
+  100% {
+    width: 1px;
+    height: 316px;
+  }
+}
+
+.head-2__center {
+  display: inline-block;
+  width: 280px;
+}
+
+@keyframes head-animation {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  100% {
+    width: 320px;
+    height: 1px;
+  }
+}
+
+.heading-2::after {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 320px;
+  vertical-align: middle;
+  margin-left: 30px;
+  animation-name: head-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.heading-2::before {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 320px;
+  vertical-align: middle;
+  margin-right: 30px;
+  animation-name: head-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.fieldset2__validation__tel {
+  display: block;
+  color: #ff5c5c;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 75px;
+  left: 224px;
+}
+
+.main__form__fieldset2__phone-email {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 74px 120px 0 120px;
+}
+
+.main__form__fieldset2__phone-email__item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.main__form__fieldset2__item__text {
+  margin: 20px 16px 22px 0;
+  padding: 0;
+  color: #333333;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+input[type="tel"],
+input[type="email"] {
+  width: 257px;
+  outline: none;
+}
+
+input[type="tel"]:hover,
+input[type="email"]:hover {
+  background-color: #e5e5e5;
+}
+
+input[type="tel"]:focus,
+input[type="email"]:focus {
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 0px 4px #e5e5e5;
+}
+
+.list__tel::after {
+  content: "";
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background: url(../img/icon/phone.png) no-repeat 21px 20px;
+  background-color: #dbdbdb;
+  vertical-align: middle;
+}
+
+.list__email::after {
+  content: "";
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  background: url(../img/icon/mail.png) no-repeat 21px 23px;
+  background-color: #dbdbdb;
+  vertical-align: middle;
+}
+
+.main__form__fieldset2__item__input {
+  background-color: #f2f2f2;
+  border: none;
+  height: 56px;
+  width: 258px;
+  padding-left: 22px;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.main__form__fieldset2__item__input::placeholder {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}

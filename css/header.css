@@ -6,9 +6,10 @@ body {
   box-shadow: 0 0 40px 40px #dbdbdb;
 }
 
-/*HEADER*/
+/*-----------HEADER-----------*/
 
 .header {
+  width: 1200px;
   display: flex;
   margin: 0 auto;
   height: 357px;
@@ -77,15 +78,18 @@ body {
   color: #766357;
 }
 
-.header__menu__list__item__logo {
+.header__menu__list__item__logo__desktop {
   position: relative;
   top: 20px;
   transition: all 0.1s linear;
 }
 
-.header__menu__list__item__logo:hover {
+.header__menu__list__item__logo__desktop:hover {
   animation-timing-function: linear;
   transform: scale(0.9) translateY(-6px);
+}
+.header__menu__list__item__logo__tablet {
+  display: none;
 }
 
 .header__sedona {

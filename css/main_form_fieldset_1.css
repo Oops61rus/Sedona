@@ -1,0 +1,260 @@
+.main__header-1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 106px auto 26px;
+}
+
+.main__text {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 56px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.main__form {
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+
+.main__form__fieldset1 {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.feeling {
+  display: flex;
+  justify-content: center;
+}
+
+/*---------form feeling---------*/
+
+.main__form__fieldset1__feeling {
+  padding: 0 0 0 60px;
+  width: 420px;
+}
+
+.main__form__fieldset1__feeling__list {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.main__form__fieldset1__feeling__list__text {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 auto 65px;
+  list-style-type: none;
+}
+
+.main__form__fieldset1__feeling__list__item {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.main__form__fieldset1__feeling__list__item__radio {
+  display: none;
+}
+
+.main__form__fieldset1__feeling__list__item__text {
+  display: block;
+  margin: 0;
+}
+
+/*---------input[type="radio"]+label-----------*/
+
+.main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text {
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*---------input[type="radio"]+label::before-----------*/
+
+.main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+  border: 15px solid #f2f2f2;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  margin: 0 24px 0 -70px;
+}
+
+.main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text:hover::before {
+  border: 15px solid#e5e5e5;
+  background-color: #e5e5e5;
+}
+/*---------input[type="radio"]:checked+label::before-----------*/
+
+.main__form__fieldset1__feeling__list__item__radio:checked
+  + .main__form__fieldset1__feeling__list__item__text::before {
+  background-color: #000;
+}
+
+/*---------input[type="radio"]:checked+label-----------*/
+
+.main__form__fieldset1__feeling__list__item__radio:checked
+  + .main__form__fieldset1__feeling__list__item__text {
+  color: black;
+}
+
+/*----------form-name---------*/
+
+.main__form__fieldset1__name {
+  width: 480px;
+}
+
+.main__form__fieldset1__name__list {
+  margin: 0;
+  padding: 0 0 0 80px;
+  display: flex;
+  flex-flow: column;
+  /* border-left: 1px solid #dbdbdb; */
+}
+
+.main__form__fieldset1__name__list__text {
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+  list-style-type: none;
+}
+
+.main__form__fieldset1__name__list__item {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+.main__form__fieldset1__name__list__item__text {
+  display: block;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 22px 14px 38px 0;
+}
+
+.main__form__fieldset1__name__list__item__text__in {
+  background-color: #f2f2f2;
+  border: none;
+  height: 58px;
+  color: #000000;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 22px;
+  outline: none;
+}
+
+.main__form__fieldset1__name__list__item__text__in:hover {
+  background-color: #e5e5e5;
+}
+
+.main__form__fieldset1__name__list__item__text__in:focus {
+  box-shadow: inset 0px 0px 0px 4px #e5e5e5;
+  background-color: #ffffff;
+}
+
+.main__form__fieldset1__name__list__item__text__in::placeholder {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* -----Для экранов шириной до 768px-----  */
+@media (max-width: 768px) {
+  body {
+    box-shadow: none;
+  }
+
+  .header {
+    height: 542px;
+    background: url(../img/back-desktop.png) no-repeat 0 25px;
+  }
+
+  .header::after {
+    top: 486px;
+  }
+
+  .header__menu__list__item {
+    height: 88px;
+  }
+
+  .header__menu__list__item__link {
+    font-size: 22px;
+  }
+
+  .header__menu__list__item__logo__desktop {
+    display: none;
+  }
+
+  .header__menu__list__item__logo__tablet {
+    display: block;
+    transform: scale(1.65);
+    position: relative;
+    top: 22px;
+  }
+
+  .header__sedona {
+    font-size: 170px;
+    margin: 107px auto;
+  }
+
+  .main__header-1 {
+    font-size: 48px;
+    margin: 106px auto 42px;
+  }
+
+  .main__text {
+    font-size: 22px;
+    margin-bottom: 116px;
+    line-height: 35px;
+  }
+
+  .feeling {
+    justify-content: space-around;
+    margin: 0;
+  }
+  .main__form__fieldset1__feeling {
+    padding: 0;
+    margin-left: 60px;
+    width: 45%;
+  }
+
+  .main__form__fieldset1__feeling__list {
+    margin: 0;
+  }
+
+  .main__form__fieldset1__feeling__list__text {
+    font-size: 33px;
+  }
+
+  .main__form__fieldset1__feeling__list__item__radio
+    + .main__form__fieldset1__feeling__list__item__text::before {
+    margin: 0;
+  }
+  .main__form__fieldset1__name {
+    margin-right: 60px;
+    width: 45%;
+  }
+  .main__form__fieldset1__name__list__text {
+    font-size: 33px;
+  }
+}

@@ -1,146 +1,145 @@
 .page__footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    flex-direction: row;
-    align-items: center;
-    padding: 29px 120px 36px 132px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  padding: 29px 120px 36px 132px;
 }
 
 .footer__visit {
-    color: #000000;
-    font-family: "PT Sans", sans-serif;
-    font-size: 21px;
-    font-weight: 700;
-    text-transform: uppercase;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .social {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .twitter {
-    display: block;
-    background-color: #81b3d2;
-    width: 46px;
-    height: 48px;
-    margin: 3px;
+  display: block;
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  margin: 3px;
 }
 
 .twitter:hover {
-    background-color: #669ec0;
+  background-color: #669ec0;
 }
 
 .twitter:visited {
-    background-color: #5496bd;
+  background-color: #5496bd;
 }
 
 .twitter::before {
-    content: "";
-    display: inline-block;
-    width: 18px;
-    height: 14px;
-    background: url(../img/icon/icon-twitter.png) no-repeat;
-    margin: 17px 14px;
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background: url(../img/icon/icon-twitter.png) no-repeat;
+  margin: 17px 14px;
 }
 
 .facebook {
-    display: block;
-    background-color: #81b3d2;
-    width: 46px;
-    height: 48px;
-    margin: 3px;
+  display: block;
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  margin: 3px;
 }
 
 .facebook:hover {
-    background-color: #669ec0;
+  background-color: #669ec0;
 }
 
 .facebook:visited {
-    background-color: #5496bd;
+  background-color: #5496bd;
 }
 
 .facebook::before {
-    content: "";
-    display: inline-block;
-    width: 9px;
-    height: 18px;
-    background: url(../img/icon/icon-facebook.png) no-repeat;
-    margin: 14px 19px;
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 18px;
+  background: url(../img/icon/icon-facebook.png) no-repeat;
+  margin: 14px 19px;
 }
 
 .youtube {
-    display: block;
-    background-color: #81b3d2;
-    width: 46px;
-    height: 48px;
-    margin: 3px;
+  display: block;
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  margin: 3px;
 }
 
 .youtube:hover {
-    background-color: #669ec0;
+  background-color: #669ec0;
 }
 
 .youtube:visited {
-    background-color: #5496bd;
+  background-color: #5496bd;
 }
 
 .youtube::before {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 14px;
-    background: url(../img/icon/icon-youtube.png) no-repeat;
-    margin: 17px 13px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  background: url(../img/icon/icon-youtube.png) no-repeat;
+  margin: 17px 13px;
 }
 
 .made {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .made__by {
-    color: #000000;
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
+  color: #000000;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .academy {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .made__by::after {
-    content: "";
-    display: inline-block;
-    width: 27px;
-    height: 34px;
-    background: url(../img/icon/htmlacademy.png) no-repeat;
-    margin: 0 0 0 11px;
-    vertical-align: middle;
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  background: url(../img/icon/htmlacademy.png) no-repeat;
+  margin: 0 0 0 11px;
+  vertical-align: middle;
 }
 
 .made__by:hover::after {
-    content: "";
-    display: inline-block;
-    width: 27px;
-    height: 34px;
-    background: url(../img/icon/htmlacademy_hover.png) no-repeat;
-    margin: 0 0 0 11px;
-    vertical-align: middle;
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  background: url(../img/icon/htmlacademy_hover.png) no-repeat;
+  margin: 0 0 0 11px;
+  vertical-align: middle;
 }
 
 .made__by:visited::after {
-    content: "";
-    display: inline-block;
-    width: 27px;
-    height: 34px;
-    background: url(../img/icon/htmlacademy_down.png) no-repeat;
-    margin: 0 0 0 11px;
-    vertical-align: middle;
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  background: url(../img/icon/htmlacademy_down.png) no-repeat;
+  margin: 0 0 0 11px;
+  vertical-align: middle;
 }
-
