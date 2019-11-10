@@ -80,6 +80,12 @@ body {
 .header__menu__list__item__logo {
   position: relative;
   top: 20px;
+  transition: all 0.1s linear;
+}
+
+.header__menu__list__item__logo:hover {
+  animation-timing-function: linear;
+  transform: scale(0.9) translateY(-6px);
 }
 
 .header__sedona {

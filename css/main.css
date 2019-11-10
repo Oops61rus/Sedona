@@ -118,10 +118,10 @@
 
 .main__form__fieldset1__name__list {
   margin: 0;
-  padding: 0 0 0 79px;
+  padding: 0 0 0 80px;
   display: flex;
   flex-flow: column;
-  border-left: 1px solid #dbdbdb;
+  /* border-left: 1px solid #dbdbdb; */
 }
 
 .main__form__fieldset1__name__list__text {
@@ -198,9 +198,48 @@ input[type="text"] {
   align-items: center;
 }
 
+.head-line {
+  position: relative;
+}
+.head-line::after {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  width: 1px;
+  height: 316px;
+  position: absolute;
+  left: 140px;
+  bottom: 75px;
+  animation-name: border-anim;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes border-anim {
+  0% {
+    width: 1px;
+    height: 0;
+  }
+  100% {
+    width: 1px;
+    height: 316px;
+  }
+}
+
 .head-2__center {
   display: inline-block;
   width: 280px;
+}
+
+@keyframes head-animation {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  100% {
+    width: 320px;
+    height: 1px;
+  }
 }
 
 .heading-2::after {
@@ -211,6 +250,9 @@ input[type="text"] {
   width: 320px;
   vertical-align: middle;
   margin-left: 30px;
+  animation-name: head-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 .heading-2::before {
@@ -221,6 +263,9 @@ input[type="text"] {
   width: 320px;
   vertical-align: middle;
   margin-right: 30px;
+  animation-name: head-animation;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 .fieldset2__validation__tel {
@@ -456,6 +501,8 @@ input[type="email"]:focus {
 
 .main__form__submit:hover {
   background-color: #669ec0;
+  animation-name: btn;
+  animation-duration: 2s;
 }
 
 .main__form__submit:visited {
