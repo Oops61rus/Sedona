@@ -35,6 +35,125 @@
   animation-timing-function: linear;
 }
 
+/* -----Для экранов шириной до 768px-----  */
+@media (max-width: 768px) {
+  body {
+    box-shadow: none;
+  }
+
+  .header {
+    height: 542px;
+    background: url(../img/back-desktop.png) no-repeat 0 25px;
+  }
+
+  .header::after {
+    top: 486px;
+  }
+
+  .header__menu__list__item {
+    height: 88px;
+  }
+
+  .header__menu__list__item__link {
+    font-size: 22px;
+  }
+
+  .header__menu__list__item__logo__desktop {
+    display: none;
+  }
+
+  .header__menu__list__item__logo__tablet {
+    display: block;
+    transform: scale(1.65);
+    position: relative;
+    top: 22px;
+  }
+
+  .header__sedona {
+    font-size: 170px;
+    margin: 107px auto;
+  }
+
+  .main__header-1 {
+    font-size: 48px;
+    margin: 106px auto 42px;
+  }
+
+  .main__text {
+    font-size: 22px;
+    margin-bottom: 116px;
+    line-height: 35px;
+  }
+
+  .feeling {
+    justify-content: space-around;
+    margin: 0;
+  }
+  .main__form__fieldset1__feeling {
+    padding: 0;
+    margin-left: 60px;
+    width: 45%;
+  }
+
+  .main__form__fieldset1__feeling__list {
+    margin: 0;
+  }
+
+  .main__form__fieldset1__feeling__list__text {
+    font-size: 33px;
+    padding: 0 0 0 32px;
+    margin-bottom: 98px;
+  }
+
+  .main__form__fieldset1__feeling__list__item__radio
+    + .main__form__fieldset1__feeling__list__item__text {
+    font-size: 28px;
+    padding-left: 36px;
+  }
+
+  .main__form__fieldset1__feeling__list__item {
+    margin-bottom: 40px;
+  }
+
+  .main__form__fieldset1__feeling__list__item__radio
+    + .main__form__fieldset1__feeling__list__item__text::before {
+    margin: 0 35px 0 0;
+    width: 32px;
+    height: 32px;
+    border: 25px solid #f2f2f2;
+  }
+
+  .main__form__fieldset1__name {
+    margin-right: 58px;
+    width: 45%;
+  }
+
+  .main__form__fieldset1__name__list {
+    padding-left: 92px;
+  }
+
+  .main__form__fieldset1__name__list__text {
+    font-size: 33px;
+    margin-bottom: 90px;
+  }
+
+  .main__form__fieldset1__name__list__item__text {
+    font-size: 22px;
+    margin: 36px 22px 20px 0;
+  }
+
+  .main__form__fieldset1__name__list__item__text__in {
+    height: 90px;
+    font-size: 22px;
+    padding: 0 0 0 32px;
+    margin: 0 30px 32px 0;
+  }
+
+  .main__form__fieldset1__name__list__item__text__in::placeholder {
+    font-size: 24px;
+  }
+}
+
 @keyframes border-anim {
   0% {
     width: 1px;
