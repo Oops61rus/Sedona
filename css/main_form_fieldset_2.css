@@ -35,7 +35,7 @@
   animation-timing-function: linear;
 }
 
-/* -----Для экранов шириной до 768px-----  */
+/*-----For screen up to 768px-----*/
 @media (max-width: 768px) {
   body {
     box-shadow: none;
@@ -43,11 +43,7 @@
 
   .header {
     height: 542px;
-    background: url(../img/back-desktop.png) no-repeat 0 25px;
-  }
-
-  .header::after {
-    top: 486px;
+    background-position: 0 25px;
   }
 
   .header__menu__list__item {
@@ -71,7 +67,6 @@
 
   .header__sedona {
     font-size: 170px;
-    margin: 107px auto;
   }
 
   .main__header-1 {
@@ -124,8 +119,8 @@
   }
 
   .main__form__fieldset1__feeling__list__item__radio
-  + .main__form__fieldset1__feeling__list__item__text:hover::before {
-  border: 25px solid#e5e5e5;
+    + .main__form__fieldset1__feeling__list__item__text:hover::before {
+    border: 25px solid#e5e5e5;
   }
 
   .main__form__fieldset1__name {

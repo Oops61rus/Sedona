@@ -11,13 +11,12 @@ body {
 .header {
   width: 1200px;
   display: flex;
-  margin: 0 auto;
   height: 357px;
   background: url(../img/back-desktop.png) no-repeat 0 -161px;
   flex-flow: row wrap;
-  justify-content: center;
   align-content: flex-start;
   position: relative;
+  overflow: hidden;
 }
 
 .header::after {
@@ -25,14 +24,10 @@ body {
   content: "";
   background: url(../img/svg/intro-triangle.svg) no-repeat;
   position: absolute;
-  top: 302px;
+  bottom: 0;
   width: 1200px;
   height: 57px;
-}
-
-.header__menu {
-  margin: 0;
-  padding: 0;
+  overflow: hidden;
 }
 
 .header__menu__list {
@@ -40,16 +35,12 @@ body {
   background: white;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
 }
 
 .header__menu__list__item {
   display: flex;
   width: 240px;
   height: 56px;
-  list-style-type: none;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -65,16 +56,10 @@ body {
 .header__menu__list__item__link:hover {
   text-decoration: none;
   color: #81b3d2;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .header__menu__list__item__link:active {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
   color: #766357;
 }
 
@@ -93,11 +78,12 @@ body {
 }
 
 .header__sedona {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: "Ubuntu", sans-serif;
   color: white;
   font-size: 108px;
-  margin: 76px auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

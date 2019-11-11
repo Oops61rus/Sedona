@@ -9,7 +9,6 @@
 .main__text {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 400;
   color: #333333;
   margin-bottom: 56px;
   text-align: center;
@@ -121,7 +120,6 @@
   padding: 0 0 0 80px;
   display: flex;
   flex-flow: column;
-  /* border-left: 1px solid #dbdbdb; */
 }
 
 .main__form__fieldset1__name__list__text {
