@@ -123,6 +123,11 @@
     border: 25px solid #f2f2f2;
   }
 
+  .main__form__fieldset1__feeling__list__item__radio
+  + .main__form__fieldset1__feeling__list__item__text:hover::before {
+  border: 25px solid#e5e5e5;
+  }
+
   .main__form__fieldset1__name {
     margin-right: 58px;
     width: 45%;
