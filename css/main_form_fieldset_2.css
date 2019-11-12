@@ -21,6 +21,7 @@
 .head-line {
   position: relative;
 }
+
 .head-line::after {
   content: "";
   display: inline-block;
@@ -30,128 +31,7 @@
   position: absolute;
   left: 140px;
   bottom: 75px;
-  animation-name: border-anim;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
-/*-----For screen up to 768px-----*/
-@media (max-width: 768px) {
-  body {
-    box-shadow: none;
-  }
-
-  .header {
-    height: 542px;
-    background-position: 0 25px;
-  }
-
-  .header__menu__list__item {
-    height: 88px;
-  }
-
-  .header__menu__list__item__link {
-    font-size: 22px;
-  }
-
-  .header__menu__list__item__logo__desktop {
-    display: none;
-  }
-
-  .header__menu__list__item__logo__tablet {
-    display: block;
-    transform: scale(1.65);
-    position: relative;
-    top: 22px;
-  }
-
-  .header__sedona {
-    font-size: 170px;
-  }
-
-  .main__header-1 {
-    font-size: 48px;
-    margin: 106px auto 42px;
-  }
-
-  .main__text {
-    font-size: 22px;
-    margin-bottom: 116px;
-    line-height: 35px;
-  }
-
-  .feeling {
-    justify-content: space-around;
-    margin: 0;
-  }
-  .main__form__fieldset1__feeling {
-    padding: 0;
-    margin-left: 60px;
-    width: 45%;
-  }
-
-  .main__form__fieldset1__feeling__list {
-    margin: 0;
-  }
-
-  .main__form__fieldset1__feeling__list__text {
-    font-size: 33px;
-    padding: 0 0 0 32px;
-    margin-bottom: 98px;
-  }
-
-  .main__form__fieldset1__feeling__list__item__radio
-    + .main__form__fieldset1__feeling__list__item__text {
-    font-size: 28px;
-    padding-left: 36px;
-  }
-
-  .main__form__fieldset1__feeling__list__item {
-    margin-bottom: 40px;
-  }
-
-  .main__form__fieldset1__feeling__list__item__radio
-    + .main__form__fieldset1__feeling__list__item__text::before {
-    margin: 0 35px 0 0;
-    width: 32px;
-    height: 32px;
-    border: 25px solid #f2f2f2;
-  }
-
-  .main__form__fieldset1__feeling__list__item__radio
-    + .main__form__fieldset1__feeling__list__item__text:hover::before {
-    border: 25px solid#e5e5e5;
-  }
-
-  .main__form__fieldset1__name {
-    margin-right: 58px;
-    width: 45%;
-  }
-
-  .main__form__fieldset1__name__list {
-    padding-left: 92px;
-  }
-
-  .main__form__fieldset1__name__list__text {
-    font-size: 33px;
-    margin-bottom: 90px;
-  }
-
-  .main__form__fieldset1__name__list__item__text {
-    font-size: 22px;
-    margin: 36px 22px 20px 0;
-  }
-
-  .main__form__fieldset1__name__list__item__text__in {
-    height: 90px;
-    font-size: 22px;
-    padding: 0 0 0 32px;
-    margin: 0 30px 32px 0;
-  }
-
-  .main__form__fieldset1__name__list__item__text__in::placeholder {
-    font-size: 24px;
-  }
+  animation: border-anim 1s linear;
 }
 
 @keyframes border-anim {
@@ -166,8 +46,29 @@
 }
 
 .head-2__center {
-  display: inline-block;
   width: 280px;
+}
+
+.heading-2::after {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 320px;
+  vertical-align: middle;
+  margin-left: 30px;
+  animation: head-animation 1s linear;
+}
+
+.heading-2::before {
+  content: "";
+  display: inline-block;
+  background-color: #dbdbdb;
+  height: 1px;
+  width: 320px;
+  vertical-align: middle;
+  margin-right: 30px;
+  animation: head-animation 1s linear;
 }
 
 @keyframes head-animation {
@@ -181,38 +82,10 @@
   }
 }
 
-.heading-2::after {
-  content: "";
-  display: inline-block;
-  background-color: #dbdbdb;
-  height: 1px;
-  width: 320px;
-  vertical-align: middle;
-  margin-left: 30px;
-  animation-name: head-animation;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
-.heading-2::before {
-  content: "";
-  display: inline-block;
-  background-color: #dbdbdb;
-  height: 1px;
-  width: 320px;
-  vertical-align: middle;
-  margin-right: 30px;
-  animation-name: head-animation;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-}
-
 .fieldset2__validation__tel {
-  display: block;
   color: #ff5c5c;
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400;
   position: absolute;
   top: 75px;
   left: 224px;
@@ -221,15 +94,12 @@
 .main__form__fieldset2__phone-email {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
-  margin: 0;
-  padding: 74px 120px 0 120px;
+  margin: 74px 120px 0;
+  padding: 0;
 }
 
 .main__form__fieldset2__phone-email__item {
   display: flex;
-  justify-content: space-between;
-  list-style-type: none;
 }
 
 .main__form__fieldset2__item__text {
@@ -259,31 +129,25 @@ input[type="email"]:focus {
 
 .list__tel::after {
   content: "";
-  display: inline-block;
   width: 58px;
   height: 58px;
   background: url(../img/icon/phone.png) no-repeat 21px 20px;
   background-color: #dbdbdb;
-  vertical-align: middle;
 }
 
 .list__email::after {
   content: "";
-  display: inline-block;
   width: 58px;
   height: 58px;
   background: url(../img/icon/mail.png) no-repeat 21px 23px;
   background-color: #dbdbdb;
-  vertical-align: middle;
 }
 
 .main__form__fieldset2__item__input {
   background-color: #f2f2f2;
   border: none;
   height: 56px;
-  width: 258px;
   padding-left: 22px;
-  color: #000000;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;

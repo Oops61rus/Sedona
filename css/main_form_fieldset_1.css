@@ -118,8 +118,6 @@
 .main__form__fieldset1__name__list {
   margin: 0;
   padding: 0 0 0 80px;
-  display: flex;
-  flex-flow: column;
 }
 
 .main__form__fieldset1__name__list__text {
@@ -131,9 +129,7 @@
 }
 
 .main__form__fieldset1__name__list__item {
-  list-style-type: none;
   display: flex;
-  justify-content: flex-start;
 }
 
 input[type="text"] {
@@ -141,7 +137,6 @@ input[type="text"] {
 }
 
 .main__form__fieldset1__name__list__item__text {
-  display: block;
   font-weight: 400;
   color: #333333;
   font-size: 14px;
@@ -154,7 +149,7 @@ input[type="text"] {
   border: none;
   height: 58px;
   color: #000000;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
   padding-left: 22px;
