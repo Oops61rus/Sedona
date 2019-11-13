@@ -3,8 +3,6 @@
   border: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .fieldset4__width {
@@ -23,8 +21,7 @@
   color: #000000;
   font-weight: 700;
   resize: none;
-  margin: 0;
-  padding: 15px 21px;
+  padding: 15px 21px 0 21px;
   outline: none;
 }
 
@@ -46,7 +43,6 @@
 
 .main__bottom {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 

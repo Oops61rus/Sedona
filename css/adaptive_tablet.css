@@ -1,0 +1,301 @@
+
+/*-----For screen up to 768px-----*/
+
+@media (max-width: 768px) {
+    body {
+      box-shadow: none;
+    }
+  
+    .header {
+      height: 542px;
+      background-position: 0 25px;
+    }
+  
+    .header__menu__list__item {
+      height: 88px;
+    }
+  
+    .header__menu__list__item__link {
+      font-size: 22px;
+    }
+  
+    .header__menu__list__item__logo__desktop {
+      display: none;
+    }
+  
+    .header__menu__list__item__logo__tablet {
+      display: block;
+      transform: scale(1.65);
+      position: relative;
+      top: 22px;
+    }
+  
+    .header__sedona {
+      font-size: 170px;
+    }
+  
+    .main__header-1 {
+      font-size: 48px;
+      margin: 106px auto 42px;
+    }
+  
+    .main__text {
+      font-size: 22px;
+      margin-bottom: 116px;
+      line-height: 35px;
+    }
+  
+    .feeling {
+      justify-content: space-around;
+      margin: 0;
+    }
+  
+    .main__form__fieldset1__feeling {
+      padding: 0;
+      margin-left: 60px;
+      width: 45%;
+    }
+  
+    .main__form__fieldset1__feeling__list {
+      margin: 0;
+    }
+  
+    .main__form__fieldset1__feeling__list__text {
+      font-size: 33px;
+      padding: 0 0 0 32px;
+      margin-bottom: 98px;
+    }
+  
+    .main__form__fieldset1__feeling__list__item__radio
+      + .main__form__fieldset1__feeling__list__item__text {
+      font-size: 28px;
+      padding-left: 36px;
+    }
+  
+    .main__form__fieldset1__feeling__list__item {
+      margin-bottom: 40px;
+    }
+  
+    .main__form__fieldset1__feeling__list__item__radio
+      + .main__form__fieldset1__feeling__list__item__text::before {
+      margin: 0 35px 0 0;
+      width: 32px;
+      height: 32px;
+      border: 25px solid #f2f2f2;
+    }
+  
+    .main__form__fieldset1__feeling__list__item__radio
+      + .main__form__fieldset1__feeling__list__item__text:hover::before {
+      border: 25px solid#e5e5e5;
+    }
+  
+    .main__form__fieldset1__name {
+      margin-right: 58px;
+      width: 45%;
+    }
+  
+    .main__form__fieldset1__name__list {
+      padding-left: 92px;
+    }
+  
+    .main__form__fieldset1__name__list__text {
+      font-size: 33px;
+      margin-bottom: 90px;
+    }
+  
+    .main__form__fieldset1__name__list__item__text {
+      font-size: 22px;
+      margin: 36px 22px 20px 0;
+    }
+  
+    .main__form__fieldset1__name__list__item__text__in {
+      height: 90px;
+      font-size: 22px;
+      padding: 0 0 0 32px;
+      margin: 0 30px 32px 0;
+    }
+  
+    .main__form__fieldset1__name__list__item__text__in::placeholder {
+      font-size: 24px;
+    }
+  
+    .heading-2 {
+      font-size: 33px;
+      margin-top: 30px;
+    }
+  
+    .heading-2::before {
+      width: 184px;
+      margin-right: 100px;
+      animation: none;
+    }
+  
+    .heading-2::after {
+      width: 184px;
+      margin-left: 100px;
+      animation: none;
+    }
+  
+    .head-2__center {
+      width: 440px;
+    }
+  
+    .head-line::after {
+      height: 460px;
+      left: 221px;
+      bottom: 149px;
+      animation: none;
+    }
+  
+    .main__form__fieldset2__phone-email {
+      flex-direction: column;
+      margin: 27px 94px 0;
+    }
+  
+    .main__form__fieldset2__phone-email__item {
+      flex-flow: row wrap;
+    }
+  
+    input[type="tel"],
+    input[type="email"] {
+      width: 88%;
+      height: 90px;
+      margin-bottom: 22px;
+      padding-left: 34px;
+      font-size: 26px;
+    }
+  
+    .list__tel::after,
+    .list__email::after {
+      transform: scale(1.565) translate(10px, 10.5px);
+    }
+  
+    .main__form__fieldset2__item__text {
+      margin: 18px 0 18px 35px;
+      padding: 0;
+      font-size: 22px;
+    }
+  
+    .fieldset2__validation__tel {
+      font-size: 22px;
+      top: 117px;
+      left: 813px;
+    }
+  
+    .main__form__fieldset2__item__input::placeholder {
+      font-size: 26px;
+    }
+  
+    .main__form__fieldset3 {
+      margin-top: 24px;
+      margin-bottom: 0;
+    }
+  
+    .main__form__fieldset3__list {
+      flex-flow: row wrap;
+      width: 800px;
+      height: 275px;
+      margin: 50px auto 0 auto;
+      padding: 16px 0 0 86px;
+      justify-content: flex-start;
+    }
+  
+    .main__form__fieldset3__list__item {
+      width: 400px;
+      height: 100px;
+    }
+  
+    .main__form__fieldset3__item__check
+      + .main__form__fieldset3__item__text::before {
+      width: 90px;
+      height: 90px;
+      margin: 0 30px 0 0;
+      border-radius: 10px;
+    }
+  
+    .main__form__fieldset3__item__check:checked
+      + .main__form__fieldset3__item__text::before {
+      background: url(../img/icon/tick.svg) no-repeat 27px 34px;
+      background-size: 40%;
+      background-color: #f2f2f2;
+    }
+  
+    .main__form__fieldset3__item__check + .main__form__fieldset3__item__text {
+      font-size: 26px;
+    }
+  
+    .main__form__fieldset4 {
+      padding: 0;
+      margin-top: 28px;
+    }
+  
+    .fieldset4__width {
+      width: 975px;
+      height: 220px;
+      margin: 90px 0 0 95px;
+    }
+  
+    .main__form__fieldset4__text {
+      font-size: 26px;
+      padding-top: 28px;
+      padding-left: 34px;
+    }
+  
+    .main__form__fieldset4__text::placeholder {
+      font-size: 26px;
+    }
+  
+    .main__bottom {
+      margin: 123px auto;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .main__form__submit {
+      margin: 0 0 0 94px;
+      width: 510px;
+      height: 92px;
+      font-size: 34px;
+      padding: 20px;
+    }
+  
+    .addition {
+      margin: 0 90px 0 0;
+      font-size: 22px;
+    }
+  
+    .page__footer {
+      margin: 144px 97px;
+      padding: 0;
+    }
+  
+    .footer__visit {
+      font-size: 32px;
+      margin: 0;
+    }
+  
+    .twitter {
+      transform: scale(1.6);
+      margin: 20px;
+    }
+  
+    .facebook {
+      transform: scale(1.6);
+      margin: 20px;
+    }
+  
+    .youtube {
+      transform: scale(1.6);
+      margin: 20px;
+    }
+  
+    .made__by {
+      font-size: 22px;
+    }
+  
+    .made__by::after {
+      transform: scale(1.6);
+      margin: 0 0 0 27px;
+    }
+  }
+  
