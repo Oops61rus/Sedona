@@ -1,21 +1,20 @@
-/*----------------fieldset 2--------------*/
-
-.main__form__fieldset2 {
-  margin: 40px 0 0 0;
-  padding: 0;
-  border: none;
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   position: relative;
+  margin-bottom: 38px;
 }
 
 .heading-2 {
   font-size: 21px;
-  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .head-line {
@@ -54,7 +53,7 @@
   display: inline-block;
   background-color: #dbdbdb;
   height: 1px;
-  width: 320px;
+  width: 27%;
   vertical-align: middle;
   margin-left: 30px;
   animation: head-animation 1s linear;
@@ -65,7 +64,7 @@
   display: inline-block;
   background-color: #dbdbdb;
   height: 1px;
-  width: 320px;
+  width: 27%;
   vertical-align: middle;
   margin-right: 30px;
   animation: head-animation 1s linear;
@@ -82,38 +81,66 @@
   }
 }
 
-.fieldset2__validation__tel {
+.contacts__block {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-top: 27px;
+}
+
+.validation__tel {
   color: #ff5c5c;
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   position: absolute;
-  top: 75px;
+  top: 74px;
   left: 224px;
 }
 
-.main__form__fieldset2__phone-email {
+.contacts__phone,
+.contacts__email {
+  width: 40%;
   display: flex;
-  justify-content: space-between;
-  margin: 74px 120px 0;
-  padding: 0;
+  align-items: center;
 }
 
-.main__form__fieldset2__phone-email__item {
-  display: flex;
+.contacts__phone::after {
+  display: inline-block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background: url(../img/icon/phone.png) no-repeat 21px 20px;
+  background-color: #dbdbdb;
 }
 
-.main__form__fieldset2__item__text {
-  margin: 20px 16px 22px 0;
-  padding: 0;
+.contacts__email::after {
+  display: block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background: url(../img/icon/mail.png) no-repeat 21px 23px;
+  background-color: #dbdbdb;
+}
+
+.contacts__text {
   color: #333333;
   font-size: 14px;
   text-transform: uppercase;
+  margin-right: 20px;
 }
 
 input[type="tel"],
 input[type="email"] {
-  width: 257px;
   outline: none;
+  width: 53%;
+  background-color: #f2f2f2;
+  border: none;
+  height: 56px;
+  padding-left: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 input[type="tel"]:hover,
@@ -127,33 +154,8 @@ input[type="email"]:focus {
   box-shadow: inset 0px 0px 0px 4px #e5e5e5;
 }
 
-.list__tel::after {
-  content: "";
-  width: 58px;
-  height: 58px;
-  background: url(../img/icon/phone.png) no-repeat 21px 20px;
-  background-color: #dbdbdb;
-}
-
-.list__email::after {
-  content: "";
-  width: 58px;
-  height: 58px;
-  background: url(../img/icon/mail.png) no-repeat 21px 23px;
-  background-color: #dbdbdb;
-}
-
-.main__form__fieldset2__item__input {
-  background-color: #f2f2f2;
-  border: none;
-  height: 56px;
-  padding-left: 22px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.main__form__fieldset2__item__input::placeholder {
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder {
   font-size: 18px;
   font-weight: 700;
   color: black;

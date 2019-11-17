@@ -1,20 +1,19 @@
-/*------------fieldset 4-------------*/
-.main__form__fieldset4 {
-  border: none;
-  padding: 0;
-  margin: 0;
+.happines {
+  margin-bottom: 56px;
 }
 
-.fieldset4__width {
-  width: 960px;
-  height: 160px;
-  margin: 55px 0 0 120px;
-}
-
-.main__form__fieldset4__text {
-  background-color: #f2f2f2;
+.happines__block {
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 56px;
+}
+
+.happines__block__text {
+  width: 80%;
+  height: 160px;
+  background-color: #f2f2f2;
   border: none;
   font-size: 18px;
   font-family: "PT Sans", sans-serif;
@@ -25,37 +24,43 @@
   outline: none;
 }
 
-.main__form__fieldset4__text:hover {
+.happines__block__text:hover {
   background-color: #e5e5e5;
 }
 
-.main__form__fieldset4__text:focus {
+.happines__block__text:focus {
   background-color: #ffffff;
   box-shadow: inset 0px 0px 0px 4px #e5e5e5;
 }
 
-.main__form__fieldset4__text::placeholder {
+.happines__block__text::placeholder {
   color: #000000;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 
+.container__bottom {
+  width: 80%;
+  margin: 0 auto 90px auto;
+}
+
 .main__bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .main__form__submit {
-  margin: 58px 120px;
-  padding: 21px 148px;
   background-color: #81b3d2;
   color: white;
   border: none;
   font-size: 21px;
   font-weight: 700;
   font-family: "PT Sans", sans-serif;
-  width: 480px;
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .main__form__submit:hover {
@@ -68,10 +73,9 @@
   background-color: #5496bd;
 }
 
-.addition {
+.required__text {
   color: #333333;
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  margin: 84px 120px 0 0;
 }
