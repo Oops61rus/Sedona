@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/section_happines.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/adaptive_tablet.css" />
+    <link rel="stylesheet" href="css/adaptive_phone.css" />
     <link
       href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Ubuntu:700&display=swap&subset=cyrillic-ext"
       rel="stylesheet"
@@ -20,27 +21,25 @@
 
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="menu">
-          <a href="#" class="menu__item">Главная</a>
-          <a href="#" class="menu__item">Фото и видео</a>
-          <a href="#" class="menu__item menu__item__desktop"
-            ><img
-              src="img/logotype-desktop.png"
-              alt="Logo"
-              class="menu__logo__desktop"
-          /></a>
-          <a href="#" class="menu__item menu__item__tablet"
-            ><img
-              src="img/logotype-tablet.svg"
-              alt="Logo"
-              class="menu__logo__tablet"
-          /></a>
-          <a href="#" class="menu__item">Форма отзыва</a>
-          <a href="https://htmlacademy.ru/" class="menu__item">HTML Academy</a>
-        </nav>
-        <div class="sedona">SEDONA</div>
-      </div>
+      <nav class="menu">
+        <a href="#" class="menu__item">Главная</a>
+        <a href="#" class="menu__item">Фото и видео</a>
+        <a href="#" class="menu__item menu__item__desktop"
+          ><img
+            src="img/logotype-desktop.png"
+            alt="Logo"
+            class="menu__logo__desktop"
+        /></a>
+        <a href="#" class="menu__item menu__item__tablet"
+          ><img
+            src="img/logotype-tablet.svg"
+            alt="Logo"
+            class="menu__logo__tablet"
+        /></a>
+        <a href="#" class="menu__item">Форма отзыва</a>
+        <a href="https://htmlacademy.ru/" class="menu__item">HTML Academy</a>
+      </nav>
+      <div class="sedona">SEDONA</div>
     </header>
 
     <div class="main">
@@ -182,28 +181,56 @@
         <div class="container">
           <section class="attractions">
             <h2 class="heading-2">
-              <span class="head-2__center">Посещенные достопримечательности:</span>
+              <span class="head-2__center"
+                >Посещенные достопримечательности:</span
+              >
             </h2>
 
             <div class="attractions__check">
               <div class="attractions__check__item">
-                <input id="check1" type="checkbox" class="attractions__check__in" checked/>
-                <label for="check1" class="attractions__check__text">Мост Дьявола</label>
+                <input
+                  id="check1"
+                  type="checkbox"
+                  class="attractions__check__in"
+                  checked
+                />
+                <label for="check1" class="attractions__check__text"
+                  >Мост Дьявола</label
+                >
               </div>
               <div class="attractions__check__item">
-                <input id="check2" type="checkbox" class="attractions__check__in" checked/>
-                <label for="check2" class="attractions__check__text">Гора-Колокол</label>
+                <input
+                  id="check2"
+                  type="checkbox"
+                  class="attractions__check__in"
+                  checked
+                />
+                <label for="check2" class="attractions__check__text"
+                  >Гора-Колокол</label
+                >
               </div>
               <div class="attractions__check__item">
-                <input id="check3" type="checkbox" class="attractions__check__in" checked/>
-                <label for="check3" class="attractions__check__text">Слайд-парк</label>
+                <input
+                  id="check3"
+                  type="checkbox"
+                  class="attractions__check__in"
+                  checked
+                />
+                <label for="check3" class="attractions__check__text"
+                  >Слайд-парк</label
+                >
               </div>
               <div class="attractions__check__item">
-                <input id="check4" type="checkbox" class="attractions__check__in"/>
-                <label for="check4" class="attractions__check__text">Красные скалы</label>
+                <input
+                  id="check4"
+                  type="checkbox"
+                  class="attractions__check__in"
+                />
+                <label for="check4" class="attractions__check__text"
+                  >Красные скалы</label
+                >
               </div>
-              
-            </div> 
+            </div>
           </section>
         </div>
 
@@ -214,35 +241,47 @@
             </h2>
 
             <div class="happines__block">
-              <textarea class="happines__block__text" placeholder="Опишите подробно все свои восторги"></textarea>
+              <textarea
+                class="happines__block__text"
+                placeholder="Опишите подробно все свои восторги"
+              ></textarea>
             </div>
           </section>
         </div>
 
         <div class="container__bottom">
           <div class="main__bottom">
-            <input type="submit" value="ОТПРАВИТЬ ОТЗЫВ" class="main__form__submit"/>
+            <input
+              type="submit"
+              value="ОТПРАВИТЬ ОТЗЫВ"
+              class="main__form__submit"
+            />
             <p class="required__text">* — обязательные поля</p>
           </div>
         </div>
-
       </form>
     </div>
 
     <footer class="page__footer">
+      <p class="footer__visit">#visitSEDONA</p>
 
-        <p class="footer__visit">#visitSEDONA</p>
+      <div class="social">
+        <a href="http://twitter.com" class="twitter__link"
+          ><div class="twitter"></div
+        ></a>
+        <a href="http://facebook.com" class="facebook__link"
+          ><div class="facebook"></div
+        ></a>
+        <a href="http://youtube.com" class="youtube__link"
+          ><div class="youtube"></div
+        ></a>
+      </div>
 
-        <div class="social">
-          <a href="http://twitter.com" class="twitter__link"><div class="twitter"></div></a>
-          <a href="http://facebook.com" class="facebook__link"><div class="facebook"></div></a>
-          <a href="http://youtube.com" class="youtube__link"><div class="youtube"></div></a>
-        </div>
-
-        <div class="made">
-          <a href="http://htmlacademy.ru" class="academy"><p class="made__by">Разработано</p></a>
-        </div>
-
+      <div class="made">
+        <a href="http://htmlacademy.ru" class="academy"
+          ><p class="made__by">Разработано</p></a
+        >
+      </div>
     </footer>
   </body>
 </html>

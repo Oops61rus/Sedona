@@ -1,4 +1,3 @@
-
 /*-----For screen up to 768px-----*/
 @media (max-width: 768px) {
   body {
@@ -11,6 +10,10 @@
     margin-bottom: 58px;
   }
   
+  .header::after {
+    background-size: cover;
+  }
+
   .menu__item__desktop {
     display: none;
   }
@@ -73,11 +76,7 @@
   + .impression__list__item__text::before {
     margin-right: 15px;
   }
-
-  .feel__name {
-    padding-left: 17%;
-  }
-
+  
   .name__list__item {
     padding-left: 8%;
     margin-right: 15%;
@@ -148,3 +147,4 @@
   .page__footer {
     width: 85%;
   }
+}
