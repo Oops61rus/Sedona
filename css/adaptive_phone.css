@@ -1,11 +1,12 @@
 /*-----For screen up to 320px-----*/
 @media (max-width: 320px) {
-  /* --- Header --- */
+  /* --- Header --- */  
   .header {
-    height: 437px;
-    background-position: center 20px;
+    height: 160px;
+    background-position: center -100px;
     margin-bottom: 39px;
   }
+  
   .menu {
     flex-direction: column;
   }
@@ -21,6 +22,13 @@
       inset 0 1px 0 rgba(255, 255, 255, 0.2);
   }
 
+  .menu__item:nth-child(1),
+  .menu__item:nth-child(2),
+  .menu__item:nth-child(5),
+  .menu__item:nth-child(6) {
+    display: none;
+  }
+  
   .menu__item__tablet {
     display: flex;
     justify-content: center;
@@ -34,9 +42,17 @@
     top: 0;
   }
 
+  .nav__toggle__item {
+    display: block;
+  }
+
+  .nav__toggle:hover .menu__item {
+    display: flex;
+  } 
+
   .sedona {
     font-size: 55px;
-    top: 80%;
+    top: 45%;
   }
 
 
@@ -189,12 +205,32 @@
        margin-top: 18px;
    }
 
+   .happines {
+     margin-bottom: 50px;
+   }
+
 
    /* --- Main Bottom --- */
-   
+   .main__bottom {
+     flex-wrap: wrap;
+   }
+
+   .main__form__submit {
+     width: 100%;
+   }
+
+   .required__text {
+     display: none;
+   }
+
+   .container__bottom {
+     margin-bottom: 50px;
+   }
+
 
   /* --- Footer --- */
   .page__footer {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
