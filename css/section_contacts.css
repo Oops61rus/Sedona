@@ -100,7 +100,7 @@
 
 .contacts__phone,
 .contacts__email {
-  width: 40%;
+  width: 480px;
   display: flex;
   align-items: center;
 }
