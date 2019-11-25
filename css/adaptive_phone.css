@@ -21,6 +21,14 @@
     box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2),
       inset 0 1px 0 rgba(255, 255, 255, 0.2);
   }
+
+  .menu__item:hover {
+    background-color: #719cb8;
+  }
+
+  .menu__item:active {
+    background-color: #8ea4b3;
+  }
   
   .menu__item:nth-child(1)::after {
     content: "";
@@ -49,6 +57,21 @@
     right: 20px;
   }
 
+  /* .menu__item:nth-child(1),
+  .menu__item:nth-child(2),
+  .menu__item:nth-child(5),
+  .menu__item:nth-child(6) {
+    display: none;
+  }
+
+  .menu__item__tablet::after.active .menu__item {
+    display: flex;
+  } 
+
+  .menu__item:nth-child(1)::after.active .menu__item {
+    display: none;
+  } */
+  
   .menu__logo__tablet {
     position: absolute;
     top: 0;
