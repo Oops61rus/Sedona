@@ -1,5 +1,5 @@
 /*-----For screen up to 320px-----*/
-@media (max-width: 320px) {
+@media (max-width: 580px) {
   /* --- Header --- */  
   .header {
     height: 160px;
@@ -21,14 +21,16 @@
     box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2),
       inset 0 1px 0 rgba(255, 255, 255, 0.2);
   }
-
-  .menu__item:nth-child(1),
-  .menu__item:nth-child(2),
-  .menu__item:nth-child(5),
-  .menu__item:nth-child(6) {
-    display: none;
-  }
   
+  .menu__item:nth-child(1)::after {
+    content: "";
+    background: url(../img/icon/icon-cross.png) no-repeat center;
+    width: 23px;
+    height: 22px;
+    position: absolute;
+    right: 20px;
+  }
+
   .menu__item__tablet {
     display: flex;
     justify-content: center;
@@ -37,18 +39,20 @@
     order: 5;
   }
 
+  .menu__item__tablet::after {
+    content: "";
+    background: url(../img/icon/icon-menu.png) no-repeat center;
+    width: 23px;
+    height: 21px;
+    position: absolute;
+    z-index: 15;
+    right: 20px;
+  }
+
   .menu__logo__tablet {
     position: absolute;
     top: 0;
   }
-
-  .nav__toggle__item {
-    display: block;
-  }
-
-  .nav__toggle:hover .menu__item {
-    display: flex;
-  } 
 
   .sedona {
     font-size: 55px;
@@ -112,11 +116,12 @@
 
   .impression__list__item {
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .impression__list__item__radio
   + .impression__list__item__text {
-    margin-left: 6%;
+    margin-left: -5%;
   }
 
   .impression__list__item__radio
@@ -146,7 +151,11 @@
   }
 
   .contacts__block {
-      padding-left: 19px;
+      justify-content: center;
+  }
+
+  .contacts__text {
+    width: 100%;
   }
 
   .contacts__phone {
@@ -168,7 +177,7 @@
       order: 2;
       top: 0;
       right: 0;
-      left: 21px;
+      left: -30px;
       margin-bottom: 20px;
   }
 
@@ -232,5 +241,11 @@
   .page__footer {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .footer__visit,
+  .made {
+    width: 100%;
+    text-align: center;
   }
 }

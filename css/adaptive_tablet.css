@@ -14,8 +14,6 @@
     background-size: cover;
   }
 
-
-
   .menu__item__desktop {
     display: none;
   }
@@ -58,6 +56,7 @@
   .impression__list__item {
     text-align: left;
     word-wrap: normal;
+    width: 100%;
   }
 
   .impression__list__item__text {
@@ -79,6 +78,10 @@
     margin-right: 15px;
   }
   
+  .your__name {
+    padding-left: 4%;
+  }
+
   .name__list__item {
     padding-left: 8%;
     margin-right: 15%;
@@ -90,7 +93,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 0;
-    padding-left: 60px;
+    padding-left: 8%;
   }
 
   .contacts__phone {
