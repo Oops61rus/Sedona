@@ -1,5 +1,5 @@
 /*-----For screen up to 320px-----*/
-@media (max-width: 580px) {
+@media (max-width: 640px) {
   /* --- Header --- */  
   .header {
     height: 160px;

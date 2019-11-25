@@ -59,7 +59,7 @@
   vertical-align: middle;
   font-size: 18px;
   font-weight: 700;
-
+  position: relative;
   margin-right: 22%;
 }
 
@@ -83,13 +83,18 @@
 } 
 
 .impression__list__item__radio:checked
-  + .impression__list__item__text::before {
-    /* background: url(../img/icon/circle.png) no-repeat center center;
-    background-color: #f2f2f2; */
-    background: #000 center;
-    border: 1px solid #f2f2f2;
+  + .impression__list__item__text::after {
+    content: "";
+    background: #000 center center;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #000;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 0px 15px #f2f2f2;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 14.5px;
+    top: 1px;
 }
 
 .impression__list__item__radio:checked
