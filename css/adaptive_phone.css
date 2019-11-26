@@ -4,7 +4,7 @@
   .header {
     height: 160px;
     background-position: center -100px;
-    margin-bottom: 39px;
+    margin-bottom: 35px;
   }
 
   .menu {
@@ -88,6 +88,10 @@
     margin-bottom: 29px;
   }
 
+  .main__text {
+    margin-bottom: 17px;
+  }
+
   .main__text br {
     display: none;
   }
@@ -113,14 +117,18 @@
   }
 
   .your__name {
-    order: -1;
+    order: 1;
     padding-left: 0;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 0;
   }
 
   .all__impression {
+    order: 3;
     justify-content: flex-start;
+    margin-bottom: 0;
+    height: 290px;
   }
 
   .name__list,
@@ -162,10 +170,12 @@
   }
 
   .contacts {
+    order: 2;
     border-top: 1px solid #e5e5e5;
     margin-bottom: 0;
     height: 310px;
     align-items: flex-start;
+    margin-bottom: 6px;
   }
 
   .contacts__block {
@@ -201,6 +211,7 @@
 
   /* --- Attractions --- */
   .attractions {
+    order: 4;
     border-top: 1px solid #e5e5e5;
     margin-bottom: 0;
   }
@@ -228,6 +239,7 @@
 
   /* --- Happines --- */
   .happines {
+    order: 5;
     margin-bottom: 50px;
     border-top: 1px solid #e5e5e5;
   }
@@ -257,6 +269,8 @@
   .page__footer {
     flex-wrap: wrap;
     justify-content: center;
+    height: 218px;
+    align-content: space-around;
   }
 
   .footer__visit,

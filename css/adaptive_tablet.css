@@ -7,7 +7,8 @@
   
   /*--- Header --- */
   .header {
-    margin-bottom: 58px;
+    margin-bottom: 68px;
+    height: 290px;
   }
   
   .header::after {
@@ -119,12 +120,13 @@
 
   .validation__tel {
     text-align: right;
-    right: 60px;
+    right: 100px;
+    top: 70px;
   }
 
   /* --- Attractions --- */
   .attractions {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 
   .attractions__check {

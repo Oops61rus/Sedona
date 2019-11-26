@@ -1,12 +1,12 @@
 .happines {
-  margin-bottom: 56px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .happines__block {
   width: 100%;
   display: flex;
   justify-content: center;
-
   margin-top: 56px;
 }
 

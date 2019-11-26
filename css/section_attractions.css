@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 63px;
+  margin-bottom: 44px;
+  width: 100%;
 }
 
 .attractions__check {

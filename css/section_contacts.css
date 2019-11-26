@@ -1,5 +1,6 @@
 .contacts {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   flex-wrap: wrap;
   position: relative;
@@ -94,7 +95,7 @@
   font-family: "PT Sans", sans-serif;
   font-size: 14px;
   position: absolute;
-  top: 74px;
+  top: 90px;
   left: 224px;
 }
 
