@@ -1,4 +1,4 @@
-/*-----For screen up to 768px-----*/
+/*-----For screen up to 990px-----*/
 @media (max-width: 990px) {
   body {
     box-shadow: none;
@@ -14,15 +14,6 @@
   .header::after {
     background-size: cover;
   }
-
-  .menu__item__desktop {
-    display: none;
-  }
-
-  .menu__item__tablet {
-    display: block;
-  }
-
 
   /* --- Main --- */
   .main__form {

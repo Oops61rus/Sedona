@@ -39,7 +39,7 @@
     right: 20px;
   }
 
-  .menu__item__tablet {
+  .menu__logo {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -47,7 +47,7 @@
     order: 5;
   }
 
-  .menu__item__tablet::after {
+  .menu__logo::after {
     content: "";
     background: url(../img/icon/icon-menu.png) no-repeat center;
     width: 23px;
@@ -71,11 +71,6 @@
   .menu__item:nth-child(1)::after.active .menu__item {
     display: none;
   } */
-
-  .menu__logo__tablet {
-    position: absolute;
-    top: 0;
-  }
 
   .sedona {
     font-size: 55px;

@@ -23,18 +23,12 @@
       <nav class="menu">
           <a href="#" class="menu__item">Главная</a>
           <a href="#" class="menu__item">Фото и видео</a>
-          <a href="#" class="menu__item menu__item__desktop"
-            ><img
-              src="img/logotype-desktop.png"
-              alt="Logo"
-              class="menu__logo__desktop"
-          /></a>
-          <a href="#" class="menu__item menu__item__tablet"
-            ><img
-              src="img/logotype-tablet.svg"
-              alt="Logo"
-              class="menu__logo__tablet"
-          /></a>
+          <a href="#" class="menu__item menu__logo">
+            <picture class="menu__item__logo">
+                <source srcset="img/logotype-tablet.svg" media="(max-width: 990px)">
+                <img src="img/logotype-desktop.png" alt="Logo" class="menu__logo__desktop">
+            </picture>
+          </a>
           <a href="#" class="menu__item">Форма отзыва</a>
           <a href="https://htmlacademy.ru/" class="menu__item">HTML Academy</a>
         </nav>
