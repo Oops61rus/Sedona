@@ -52,6 +52,7 @@
 }
 
 .main__form__submit {
+  cursor: pointer;
   background-color: #81b3d2;
   color: white;
   border: none;

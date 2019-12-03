@@ -133,6 +133,7 @@
 
 input[type="tel"],
 input[type="email"] {
+  cursor: text;
   outline: none;
   width: 53%;
   background-color: #f2f2f2;

@@ -25,6 +25,7 @@
 
 .attractions__check__in
   + .attractions__check__text::before {
+  cursor: pointer;
   content: "";
   display: inline-block;
   width: 55px;
