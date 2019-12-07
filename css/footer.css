@@ -25,6 +25,7 @@
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
+  border-radius: 7px;
 }
 
 .twitter:hover {
@@ -49,6 +50,7 @@
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
+  border-radius: 7px;
 }
 
 .facebook:hover {
@@ -73,6 +75,7 @@
   background-color: #81b3d2;
   width: 46px;
   height: 48px;
+  border-radius: 7px;
 }
 
 .youtube:hover {

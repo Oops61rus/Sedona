@@ -151,6 +151,7 @@
   padding-left: 22px;
   padding-right: 4px;
   outline: none;
+  border-radius: 7px;
 }
 
 .name__list__item__text__in:hover {

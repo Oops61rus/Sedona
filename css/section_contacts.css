@@ -113,6 +113,7 @@
   height: 56px;
   background: url(../img/icon/phone.png) no-repeat 21px 20px;
   background-color: #dbdbdb;
+  border-radius: 0 7px 7px 0;
 }
 
 .contacts__email::after {
@@ -122,6 +123,7 @@
   height: 56px;
   background: url(../img/icon/mail.png) no-repeat 21px 23px;
   background-color: #dbdbdb;
+  border-radius: 0 7px 7px 0;
 }
 
 .contacts__text {
@@ -143,6 +145,7 @@ input[type="email"] {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   font-weight: 700;
+  border-radius: 7px 0 0 7px;
 }
 
 input[type="tel"]:hover,
